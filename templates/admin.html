@@ -1,0 +1,172 @@
+<html lang="en-GB"><head>
+  <title>Auto Escola Líder</title>
+  <link rel="stylesheet" type="text/css" href="/static/admin/css/base.css">
+
+  <link rel="stylesheet" type="text/css" href="/static/admin/css/nav_sidebar.css">
+  <script src="/static/admin/js/nav_sidebar.js" defer=""></script>
+
+  <link rel="stylesheet" type="text/css" href="/static/admin/css/dashboard.css">
+
+
+
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/static/admin/css/responsive.css">
+
+
+  <meta name="robots" content="NONE,NOARCHIVE">
+</head>
+
+
+<body class=" dashboard" data-admin-utc-offset="0">
+
+  <!-- Container -->
+  <div id="container">
+
+
+    <!-- Header -->
+    <div id="header">
+      <div id="branding">
+        
+
+        <h1 id="site-name"><a href="/admin/">Auto Escola Líder</a></h1>
+
+      </div>
+
+
+      <div id="user-tools">
+
+        Bem vindo(a),
+        <strong>alvaro.morais</strong>.
+
+
+
+        <a href="/">Ver o site</a> /
+
+
+
+
+
+
+        <a href="/admin/password_change/">Alterar senha</a> /
+
+        <a href="/admin/logout/">Encerrar sessão</a>
+
+      </div>
+
+
+
+    </div>
+    <!-- END Header -->
+
+
+
+    <div class="main shifted" id="main">
+
+
+
+      <div class="content">
+
+
+
+        <!-- Content -->
+        <div id="content" class="colMS">
+
+          <h1></h1>
+
+          <div id="content-main">
+
+
+
+
+            <div class="app-auth module">
+              <table>
+                <caption>
+                  <a href="/admin/auth/" class="section" title="Registra os clientes no site">Autenticação e Autorização
+                    </a>
+                </caption>
+
+                <tbody>
+                  <tr class="model-user">
+
+                    <th scope="row"><a href="/admin/auth/user/">Usuários</a></th>
+
+
+
+                    <td><a href="/admin/auth/user/add/" class="addlink">Adicionar</a></td>
+
+
+
+
+                    <td><a href="/admin/auth/user/" class="changelink">Alterar</a></td>
+
+
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+
+            <div class="app-home module">
+              <table>
+                <caption>
+                  <a href="/admin/home/" class="section" title="Models in the Home application">Home</a>
+                </caption>
+
+                <tbody>
+                  <tr class="model-agenda">
+
+                    <th scope="row"><a href="/admin/home/agenda/">Aulas</a></th>
+
+
+
+                    <td><a href="/admin/home/agenda/add/" class="addlink">Adicionar</a></td>
+
+
+
+
+                    <td><a href="/admin/home/agenda/" class="changelink">Alterar</a></td>
+
+
+                  </tr>
+
+                  <tr class="model-pessoa">
+
+                    <th scope="row"><a href="/admin/home/pessoa/">Clientes</a></th>
+
+
+
+                    <td><a href="/admin/home/pessoa/add/" class="addlink">Adicionar</a></td>
+
+
+
+
+                    <td><a href="/admin/home/pessoa/" class="changelink">Alterar</a></td>
+
+
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+
+
+
+          </div>
+
+          <br class="clear">
+        </div>
+        <!-- END Content -->
+        
+        <div id="footer"></div>
+      </div>
+    </div>
+  </div>
+  <!-- END Container -->
+
+
+
+
+</body></html>
+{% block extrastyle %} {% load static %}
+<link rel="stylesheet" text="text/css" href="{% static 'adminstyle.css' %}">
+{% endblock %}

@@ -1,0 +1,141 @@
+body,
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+#header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 2ms;
+}
+
+#header.active {
+    position: fixed;
+    background: #fff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .2);
+    z-index: 9999;
+}
+
+#header .navbar-collapse {
+    width: auto;
+}
+
+#header .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    color: #000;
+    border-bottom: solid 4px transparent;
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px var(--secondary);
+    color: var(--secondary);
+}
+
+#slider {
+    background: url(../imagens/slider-bg.svg) no-repeat center bottom;
+    background-size: contain;
+}
+
+#slider h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#slider h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#servicos a.destaque {
+    display: block;
+    background: var(--primary);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+    transition: all ease-out .2s;
+}
+
+#servicos a.destaque:hover {
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .12);
+    transform: scale(1.05);
+}
+
+#servicos p {
+    color: var(--dark);
+}
+
+#servicos .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+#servicos a.destaque .img-container img {
+    max-height: 160px;
+}
+
+#mycarrousel h1 {
+    color: #000;
+}
+
+
+
+h1 {
+    color: #000;
+    font-size: 40px;
+    text-shadow: 2px 1px;
+}
+
+p {
+    color: #000;
+    font-size: 25px;
+    text-shadow: 1px 1px;
+}
+
+.links {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.scroll {
+    display: flex;
+    width: 100vw;
+    height: 230vh;
+    overflow: hidden;
+}
+
+.sections {
+    transition: all .4s;
+}
+
+input {
+    display: none;
+}
+
+.bloco {
+    width: 100vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#bt_sobre:checked~.sections {
+    margin-top: -50vh;
+}
+
+#bt_servicos:checked~.sections {
+    margin-top: -100vh;
+}
+
+#bt_contato:checked~.sections {
+    margin-top: -150vh;
+}

@@ -1,0 +1,24 @@
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+}
+
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.subtitle{
+    color: var(--medium);
+    font-weight: 400;
+}
+
+.block {
+    margin-bottom: 120px;
+}
