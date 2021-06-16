@@ -39,3 +39,22 @@
     background: none;
     display: none;
 }
+
+.module h2, .module caption, .inline-group h2 {
+    margin: 0;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: left;
+    background: #021e2c;
+    color: #ffffff;
+}
+
+div.breadcrumbs {
+    background: #021e2c;
+    padding: 10px 40px;
+    border: none;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: left;
+}

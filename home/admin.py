@@ -9,7 +9,7 @@ class agendaAdmin(admin.ModelAdmin):
     list_per_page = 5
 
 admin.site.index_title = "Auto Escola Líder"
-admin.site.index_template = "admin.html"
+#admin.site.index_template = "admin.html" 
 admin.site.unregister(Group)
 admin.site.register(Agenda, agendaAdmin)
 admin.site.register(Pessoa)
