@@ -5,13 +5,13 @@ html {
 
 #header {
     width: 100%;
-    background-color: transparent;
+    background-color: #021e2c;
     transition: background ease-out 2ms;
 }
 
 #header.active {
     position: fixed;
-    background: #fff;
+    background: #021e2c;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, .2);
     z-index: 9999;
 }
