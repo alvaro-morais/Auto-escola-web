@@ -58,3 +58,12 @@ div.breadcrumbs {
     color: #ffffff;
     text-align: left;
 }
+body {
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0c0c0c;
+    -webkit-text-size-adjust: 100%;
+}
+
